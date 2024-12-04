@@ -1,9 +1,8 @@
-import React from "react";
+import Canvas from "./canvas";
 import Customizer from "./pages/Customizer";
 import Home from "./pages/Home";
-import Canvas from "./canvas";
 
-const App = () => {
+function App() {
   return (
     <main className="app transition-all ease-in">
       <Home />
@@ -11,6 +10,6 @@ const App = () => {
       <Customizer />
     </main>
   );
-};
+}
 
 export default App;

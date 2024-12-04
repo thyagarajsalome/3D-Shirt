@@ -12,8 +12,9 @@ import {
   AIPicker,
   ColorPicker,
   CustomButton,
+  FilePicker,
   Tab,
-} from "../components/index.js";
+} from "../components";
 
 const Customizer = () => {
   const snap = useSnapshot(state);

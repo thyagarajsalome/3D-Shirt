@@ -1,4 +1,3 @@
-import { color } from "framer-motion";
 import { proxy } from "valtio";
 
 const state = proxy({
@@ -6,7 +5,7 @@ const state = proxy({
   color: "#EFBD48",
   isLogoTexture: true,
   isFullTexture: false,
-  logoDecal: "'./threejs.png",
+  logoDecal: "./threejs.png",
   fullDecal: "./threejs.png",
 });
 
